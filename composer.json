@@ -1,0 +1,25 @@
+{
+    "name": "paykassa/paykassa-php-client",
+    "description": "Paykassa api client",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitaly Mikheev",
+            "email": "vitaly.mikheev@solbeg.com"
+        }
+    ],
+    "keywords": [
+        "paykassa api",
+        "paykassa"
+    ],
+    "require": {
+        "php": ">=8.1",
+        "guzzlehttp/guzzle": ">=7.5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "PayKassa\\": "src"
+        }
+    }
+}
