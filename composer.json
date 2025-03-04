@@ -1,5 +1,5 @@
 {
-    "name": "paykassa/paykassa-php-client",
+    "name": "payselection/paykassa-php-client",
     "description": "Paykassa api client",
     "type": "library",
     "license": "MIT",
