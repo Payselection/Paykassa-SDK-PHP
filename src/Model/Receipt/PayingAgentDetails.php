@@ -19,7 +19,7 @@ class PayingAgentDetails extends BaseRequest
     {
         return [
             'operation' => $this->operation,
-            'phones'    => $this->phones ? json_encode($this->phones) : null,
+            'phones'    => $this->phones,
         ];
     }
 }

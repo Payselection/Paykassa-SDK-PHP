@@ -20,7 +20,7 @@ class MoneyTransferOperatorDetails extends BaseRequest
     public function makeRequest(): array
     {
         return [
-            'phones'  => $this->phones ? json_encode($this->phones) : null,
+            'phones'  => $this->phones,
             'name'    => $this->name,
             'address' => $this->address,
             'inn'     => $this->inn,

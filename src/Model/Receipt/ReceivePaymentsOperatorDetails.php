@@ -18,7 +18,7 @@ class ReceivePaymentsOperatorDetails extends BaseRequest
     public function makeRequest(): array
     {
         return [
-            'phones' => $this->phones ? json_encode($this->phones) : null,
+            'phones' => $this->phones,
         ];
     }
 }
